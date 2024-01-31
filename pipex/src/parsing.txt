@@ -1,0 +1,8 @@
+faire un split sur le path (envp) avec ":"
+
+faire un strjoin directment sur chaque path avec un '/' uniquement
+
+prendre les arguments un a un et les coller a chaque separation de path dans le split en faisant 
+
+strjoin(path[1], av[1]) sur tous les paths et voir les acces avec :
+access(path+cmd avec le join, F_OK) pour verifier l'existence si c'est = a 0 alors c'est ok 
